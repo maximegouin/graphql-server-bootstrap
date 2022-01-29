@@ -1,0 +1,25 @@
+{
+  "name": "graphql-server-bootstrap",
+  "version": "1.0.0",
+  "description": "Help quickly develop graphql API",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "tsnd ./src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "apollo-server-core": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "graphql": "^16.3.0",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemo": "^1.0.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
